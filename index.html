@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Style.CSS">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Red Store</title>
+</head>
+
+<body>
+    <!-- Banner -->
+    <div class="banner">
+        <div class="nav">
+            <div class="loggito">
+                <a href="index.html"><img src="images/logo.png" width="160px"></a>
+            </div>
+            <nav>
+                <ul id="topNav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="account.html">ACCOUNT</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href="cart-page.html"><i class="bi bi-cart3"></i></a>
+                <div id="menuBtn">
+                    <img src="images/menu.png" id="menu" onclick="menutoggle()">
+                </div>
+            </div>
+        </div>
+        <div class="banner-container">
+            <div class="banner-left">
+                <h1>Give Your Workout <br>A New Style</h1>
+                <p>Success is Not Final, Failure is Not Fatal: it is the Courage <br> to Continue that Counts.</p>
+                <a href="#" class="btn">Explore Now</a>
+            </div>
+            <div class="banner-right">
+                <img src="images/image1.png">
+            </div>
+        </div>
+    </div>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="title-text">
+            <h1>Featured Products</h1>
+        </div>
+        <div class="container">
+            <div class="featured-products-box">
+                <a href="product-detail.html"><img src="images/product-1.jpg"></a>
+                <p>Red Printed T-Shirt</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <p>$50.00</p>
+            </div>
+            <div class="featured-products-box">
+                <img src="images/product-2.jpg">
+                <p>Red Printed T-Shirt</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <p>$50.00</p>
+            </div>
+            <div class="featured-products-box">
+                <img src="images/product-3.jpg">
+                <p>Red Printed T-Shirt</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+                <p>$50.00</p>
+            </div>
+            <div class="featured-products-box">
+                <img src="images/product-4.jpg">
+                <p>Red Printed T-Shirt</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="title-text">
+            <h1>Latest Products</h1>
+        </div>
+        <div class="container">
+            <div class="featured-products-box">
+                <img src="images/product-5.jpg">
+                <p>Red Printed T-Shirt</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <p>$50.00</p>
+            </div>
+            <div class="featured-products-box">
+                <img src="images/product-6.jpg">
+                <p>Red Printed T-Shirt</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <p>$50.00</p>
+            </div>
+            <div class="featured-products-box">
+                <img src="images/product-7.jpg">
+                <p>Red Printed T-Shirt</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+                <p>$50.00</p>
+            </div>
+            <div class="featured-products-box">
+                <img src="images/product-8.jpg">
+                <p>Red Printed T-Shirt</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <p>$50.00</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="featured-products-box">
+                <img src="images/product-9.jpg">
+                <p>Red Printed T-Shirt</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+                <p>$50.00</p>
+            </div>
+            <div class="featured-products-box">
+                <img src="images/product-10.jpg">
+                <p>Red Printed T-Shirt</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <p>$50.00</p>
+            </div>
+            <div class="featured-products-box">
+                <img src="images/product-11.jpg">
+                <p>Red Printed T-Shirt</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <i class="bi bi-star"></i>
+                <p>$50.00</p>
+            </div>
+            <div class="featured-products-box">
+                <img src="images/product-12.jpg">
+                <p>Red Printed T-Shirt</p>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <p>$50.00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Exclusive Product -->
+    <section class="exclusive-product">
+        <div class="container">
+            <div class="exclusive-product-box">
+                <img src="images/exclusive.png">
+            </div>
+            <div class="exclusive-product-box">
+                <p>Exclusively Available on RedStore</p>
+                <h1>Smart Band 7</h1>
+                <p>Smart Band 7 features a simple design with a streamlined Armor Aluminum metal frame. It offers
+                    high-end looks and functionality for your workouts and day-to-day tasks.</p>
+                <a href="#" class="btn">Buy Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonial">
+        <div class="title-text">
+            <h1>What Our Customers Say</h1>
+        </div>
+        <div class="container">
+            <div class="testimonial-box">
+                <div class="quote"><i class="bi bi-quote"></i></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, architecto voluptates ullam magnam officiis minima adipisci totam itaque.</p>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <div class="img">
+                    <img src="images/user-2.png">
+                </div>
+                <h4>John Miller</h4>
+            </div>
+            <div class="testimonial-box">
+                <div class="quote"><i class="bi bi-quote"></i></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, architecto voluptates ullam magnam officiis minima adipisci totam itaque.</p>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <div class="img">
+                    <img src="images/user-1.png">
+                </div>
+                <h4>Anglena Jolie</h4>
+            </div>
+            <div class="testimonial-box">
+                <div class="quote"><i class="bi bi-quote"></i></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, architecto voluptates ullam magnam officiis minima adipisci totam itaque.</p>
+                <div class="stars">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                </div>
+                <div class="img">
+                    <img src="images/user-3.png">
+                </div>
+                <h4>Emma Watson</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands -->
+
+    <section class="brands">
+        <div class="container">
+            <div class="brands-box">
+                <a href="https://www.coca-cola.com/" target="_blank"><img src="images/logo-coca-cola.png"></a>
+            </div>
+            <div class="brands-box">
+                <a href="https://www.godrej.com/" target="_blank"><img src="images/logo-godrej.png"></a>
+            </div>
+            <div class="brands-box">
+                <a href="https://www.oppo.com/" target="_blank"><img src="images/logo-oppo.png"></a>
+            </div>
+            <div class="brands-box">
+                <a href="https://www.paypal.com/" target="_blank"><img src="images/logo-paypal.png"></a>
+            </div>
+            <div class="brands-box">
+                <a href="https://www.philips.com/" target="_blank"><img src="images/logo-philips.png"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-box-1">
+                <h3>Download Our App</h3>
+                <p>Download Our App for Android and ios mobile phones.</p>
+                <a href="https://play.google.com/" target="_blank"><img src="images/play-store.png"></a>
+                <a href="https://www.apple.com/app-store/" target="_blank"><img src="images/app-store.png"></a>
+            </div>
+            <div class="footer-box-2">
+                <div><img src="images/logo-white.png"></div>
+                <p>Our Purpose Is To Make The Pleasure And Benefits of Sports Accessible To The Many. </p>
+            </div>
+            <div class="footer-box-3">
+                <h3>Useful Links</h3>
+                <div>
+                    <ul>
+                        <li ><a href="#">Coupons</a></li>
+                        <li><a href="#">Blog Post</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Join Affiliate</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-box-4">
+                <h3>Follow us</h3>
+                <div>
+                    <ul>
+                        <li ><a href="https://www.facebook.com/" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/" target="_blank">Instagram</a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank">YouTube</a></li>
+                        <li><a href="https://www.twitter.com/" target="_blank">Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="hr-line"></div>
+        <div class="copyright">Copyright 2022 &copy; Ihtisham Riaz</div>
+    </footer>
+
+    <!-- Toggle Menu on and off -->
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var topNav = document.getElementById("topNav");
+        var menu = document.getElementById("menu");
+        topNav.style.maxHeight = "0px";
+
+        function menutoggle(){
+            if (topNav.style.maxHeight == "0px") {
+                topNav.style.maxHeight = "250px";
+                menu.src = "images/close.png";
+            }
+            else {
+                topNav.style.maxHeight = "0px";
+                menu.src = "images/menu.png";
+            }
+        }
+    </script>
+
+</body>
+</html>
